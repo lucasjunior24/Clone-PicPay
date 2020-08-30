@@ -1,6 +1,16 @@
 import React from 'react'
-import { Text } from 'react-native'
+
+import { Wrapper, Header, HeaderContainer, Title } from './styled'
 
 export default function Wallet() {
-    return <Text>Wallet</Text>
+    return (
+        <Wrapper>
+            <Header colors={['#52E78C', '#1AB563']}>
+                <HeaderContainer>
+                    <Title>Saldo PicPay</Title>
+
+                </HeaderContainer>
+            </Header>
+        </Wrapper>
+    )
 }
